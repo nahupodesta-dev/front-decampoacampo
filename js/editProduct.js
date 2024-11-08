@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         try {
             await updateProductById(productId, updatedProduct);
             alert('Producto actualizado exitosamente');
-            window.location.href = 'index.html';
+            window.location.href = '/index.html';
         } catch (error) {
             console.error('Error al actualizar el producto:', error);
             showError('Hubo un problema al actualizar el producto. Intenta de nuevo.');

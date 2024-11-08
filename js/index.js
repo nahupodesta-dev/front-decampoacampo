@@ -41,15 +41,15 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
     
     newProductBtn.addEventListener('click', () => {
-        window.location.href = 'newProduct.html';
+        window.location.href = '/views/newProduct.html';
     });
 
     window.viewProduct = function (id) {
-        window.location.href = `viewProduct.html?id=${id}`;
+        window.location.href = `/views/viewProduct.html?id=${id}`;
     };
 
     window.editProduct = function (id) {
-        window.location.href = `editProduct.html?id=${id}`;
+        window.location.href = `/views/editProduct.html?id=${id}`;
     };
 
     window.confirmDeleteProduct = async function (id) {

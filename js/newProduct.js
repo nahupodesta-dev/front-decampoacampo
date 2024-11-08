@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         try {
             await createProduct(newProduct);
             alert('Producto creado exitosamente');
-            window.location.href = 'index.html';
+            window.location.href = '/index.html';
         } catch (error) {
             console.error('Error al crear el producto:', error);
             showError('Hubo un problema al crear el producto. Intenta de nuevo.');
