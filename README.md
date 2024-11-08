@@ -6,9 +6,8 @@ Front hecho en CSS, HTML y JS
 
 1. Clonar el repositorio.
 
-2. Ejecutar el comando de Docker.
+2. Ejecutar el siguiente comando en la raiz del proyecto.
 
-3. En la raíz del proyecto, ejecutar:
 
 
 ```bash
