@@ -9,7 +9,6 @@ Front hecho en CSS, HTML y JS
 2. Ejecutar el siguiente comando en la raiz del proyecto.
 
 
-
 ```bash
 
 docker-compose up -d
