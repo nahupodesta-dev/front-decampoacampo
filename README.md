@@ -12,3 +12,7 @@ Front hecho en CSS, HTML y JS
 ```bash
 
 docker-compose up -d
+
+```
+
+http://localhost:5550/
