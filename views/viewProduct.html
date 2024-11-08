@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Producto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/viewProduct.css"> 
+</head>
+<body>
+    <h1>Detalles del Producto</h1>
+    <div id="error-message" style="display: none;"></div>
+
+    <div id="product-details">
+        <p>
+            <strong>Nombre:</strong> 
+            <span id="product-name"></span>
+        </p>
+        <p>
+            <strong>Descripción:</strong> 
+            <span id="product-description"></span>
+        </p>
+        <p>
+            <strong>Precio (ARS):</strong>
+            <span id="product-price"></span>
+        </p>
+        <p>
+            <strong>Precio (USD):</strong>
+            <span id="product-price-usd"></span>
+        </p>
+    </div>
+
+    <button class="back-button" onclick="window.location.href='index.html'">Volver a la Lista</button>
+
+    <script type="module" src="../js/viewProduct.js"></script>
+</body>
+</html>
